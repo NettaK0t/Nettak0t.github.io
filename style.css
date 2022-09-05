@@ -14,3 +14,27 @@
   left: 140px;
   z-index: 1;
 }
+
+table {
+  position: relative;
+  top: 150px;
+  color: #fff;
+  background-color: rgb(100, 100, 100);
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #000;
+  padding: 5px;
+}
+tbody {
+  background-color: rgb(139, 139, 139);
+}
+
+.text-bold {
+  font-weight: bold;
+}
+.text-right {
+  text-align: right;
+}

@@ -7,13 +7,48 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <div id="div_1">
-      <p>First paragraph</p>
-      <p>First paragraph</p>
-    </div>
-    <div id="div_2">
-      <p>Second paragraph</p>
-      <p>Second paragraph</p>
-    </div>
+    <section>
+      <div id="div_1">
+        <p>First paragraph</p>
+        <p>First paragraph</p>
+      </div>
+      <div id="div_2">
+        <p>Second paragraph</p>
+        <p>Second paragraph</p>
+      </div>
+    </section>
+
+    <table class="text-bold">
+      <thead>
+        <tr>
+          <th>Сотрудник</th>
+          <th>Зарплата</th>
+          <th>Бонусы</th>
+          <th>Менеджер</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Алексей Примадонин</td>
+          <td>750$</td>
+          <td>63$</td>
+          <td rowspan="2">Кодовёнок Хекслетович</td>
+        </tr>
+        <tr>
+          <td>Вениамин Редакторович</td>
+          <td>1200$</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Джедай Падаванов</td>
+          <td>500$</td>
+          <td>100$</td>
+          <td>Королева Верстальщина</td>
+        </tr>
+        <tr>
+          <td colspan="4" class="text-right">Всего: 2613$</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
