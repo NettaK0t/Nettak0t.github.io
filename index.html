@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Position</title>
+    <title>My pet-site</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
@@ -50,5 +50,33 @@
         </tr>
       </tbody>
     </table>
+
+    <form>
+      <fieldset>
+        <legend>Данные о пользователе</legend>
+        <label for="name" class="sr-only">Имя</label>
+        <input id="name" type="text" placeholder="Введите имя" />
+
+        <label for="surname" class="sr-only">Фамилия</label>
+        <input id="surname" type="text" placeholder="Введите фамилию" />
+
+        <label for="birth-date" class="sr-only">Дата рождения</label>
+        <input
+          id="birth-date"
+          type="date"
+          placeholder="Введите дату рождения"
+        />
+
+        <label for="login" class="sr-only">Логин</label>
+        <input id="login" type="text" placeholder="Придумайте логин" />
+
+        <label for="password" class="sr-only">Пароль</label>
+        <input id="password" type="text" placeholder="Придумайте пароль" />
+
+        <label for="password" class="sr-only">Пароль</label>
+        <input id="password" type="text" placeholder="Повторите пароль" />
+        <button>Зарегистрироваться</button>
+      </fieldset>
+    </form>
   </body>
 </html>
