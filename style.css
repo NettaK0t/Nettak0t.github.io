@@ -44,19 +44,18 @@ tbody {
 /*FORM*/
 
 form {
-  width: 400px;
+  width: 300px;
   position: relative;
   top: 200px;
 }
-
-legend {
+form legend {
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
 }
-
 label {
   color: rgb(0, 155, 155);
 }
-
 button {
   display: block;
   margin: auto;
@@ -66,13 +65,10 @@ button {
   border: none;
   border-radius: 7px;
 }
-form legend {
-  font-size: large;
-  font-weight: bold;
-}
+
 .form-input * {
   display: block;
-  width: 50%;
+  width: 90%;
   box-sizing: border-box;
   height: 30px;
   padding: 5px 10px;
