@@ -56,10 +56,7 @@ legend {
 label {
   color: rgb(0, 155, 155);
 }
-form input {
-  display: block;
-  border-radius: 7px;
-}
+
 button {
   display: block;
   margin: auto;
@@ -72,4 +69,14 @@ button {
 form legend {
   font-size: large;
   font-weight: bold;
+}
+.form-input * {
+  display: block;
+  width: 50%;
+  box-sizing: border-box;
+  height: 30px;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 7px;
+  border: 1px solid rgb(172, 172, 172);
 }
