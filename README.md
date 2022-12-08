@@ -1,3 +1,3 @@
-# Nettak0t.github.io
+https://nettak0t.github.io/
 
 Created for training
